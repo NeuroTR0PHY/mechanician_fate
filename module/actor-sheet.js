@@ -9,10 +9,11 @@ export class SimpleActorSheet extends ActorSheet {
 	  return mergeObject(super.defaultOptions, {
   	  classes: ["mech", "sheet", "actor"],
           template: "systems/mechanician_fate/templates/actor-sheet.html",
-      width: 600,
-      height: 600,
-      tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description"}],
-      dragDrop: [{dragSelector: ".item-list .item", dropSelector: null}]
+      width: 650,
+      height: 650,
+      tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "stats"}],
+          dragDrop: [{ dragSelector: ".item-list .item", dropSelector: null }],
+      resizable: false,
     });
   }
 

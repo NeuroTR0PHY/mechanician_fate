@@ -3,6 +3,171 @@
   /* Items List */
   /* Attributes */
 }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Italic.otf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-LightItalic.otf");
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-BoldItalic.otf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Black.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-BlackItalic.otf");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Fate Core";
+    src: url("fonts/Fate Core Font.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.sheet-grid {
+    flex: 1;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    height: 100%;
+    
+}
+
+.col-1 {
+    width: 33.33%;
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.row {
+    height: 91%;
+    display: flex;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.gray-bg {
+    /*background: url("ui/rust.jpg") repeat;*/
+    /*background-color: rgb(233, 233, 233);*/
+
+}
+
+.aspects {
+    height: 100%;
+}
+
+.sheet-tabs {
+    border: black;
+    border-width: medium;
+}
+
+.section-header { /*for the black backedd headers above each category*/
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    text-align: left;
+    font-family: "Montserrat";
+    padding-left: 10px;
+    text-transform: uppercase;
+
+}
+
+.aspects .property-container {
+    margin-right: 0.3rem;
+    margin-bottom: 0.6rem;
+    
+}
+
+.vitals {
+    height: 25%;
+}
+
+.vitals .property-container {
+    margin-left: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.stunts {
+    height: 100%;
+}
+
+.skills {
+    height: 100%;
+}
+
+.full-page {
+    height: 100%;
+}
+
+.main-sheet { /**/
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box {
+    padding: 2px;
+    border: 2px solid black;
+    flex: 1;
+}
+
 .mech .window-content {
   height: 100%;
   padding: 5px;
@@ -48,10 +213,11 @@
   width: 100px;
   height: 28px;
 }
-.mech .tabs {
+
+.tabs {
   height: 40px;
-  border-top: 1px solid #AAA;
-  border-bottom: 1px solid #AAA;
+  border-top: 3px solid #AAA;
+  border-bottom: 3px solid #AAA;
 }
 .mech .tabs .item {
   line-height: 40px;
@@ -61,8 +227,9 @@
   text-decoration: underline;
   text-shadow: none;
 }
-.mech .sheet-body {
+.sheet-body {
   overflow: hidden;
+    border: black;
 }
 .mech .sheet-body .tab {
   height: 100%;
