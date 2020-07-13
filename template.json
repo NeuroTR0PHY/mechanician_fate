@@ -13,9 +13,26 @@
         "min": 0,
         "max": 5
       },
-      "attributes": {}
-    }
-  },
+      "points": {
+        "current": 3,
+        "refresh": 3
+      },
+      "stress": {
+        "physical": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "mental": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false
+        },
+        "attributes": {}
+      }
+    },
   "Item": {
     "types": [ "item" ],
     "item": {

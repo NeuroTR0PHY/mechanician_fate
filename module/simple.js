@@ -8,13 +8,20 @@
 import { SimpleActor } from "./actor.js";
 import { SimpleItemSheet } from "./item-sheet.js";
 import { SimpleActorSheet } from "./actor-sheet.js";
+import { FATE } from "./module/config.js";
+import { preloadHandlebarsTemplates } from "./module/templates.js";
 
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
 /* -------------------------------------------- */
 
 Hooks.once("init", async function() {
-  console.log(`Initializing Simple Worldbuilding System`);
+    console.log(`Initializing Simple Worldbuilding System`);
+
+    //from fate.js
+    CONFIG.FATE = FATE;
+    //from fate.js
+    //await preloadHandlebarsTemplates();
 
 	/**
 	 * Set an initiative formula for the system
@@ -43,4 +50,15 @@ Hooks.once("init", async function() {
     default: true,
     config: true
   });
+});
+
+// Adds a simple Handlebars "for loop" block helper
+Handlebars.registerHelper('for', function (times, block) {
+    var accum = '';
+    for (let i = 0; i < times; i++) {
+        block.data.index = i;
+        block.data.num = i + 1;
+        accum += block.fn(i);
+    }
+    return accum;
 });

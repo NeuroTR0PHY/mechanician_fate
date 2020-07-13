@@ -3,8 +3,7 @@
  * @extends {Actor}
  */
 export class SimpleActor extends Actor {
-
-  /** @override */
+    /** @override */
   getRollData() {
     const data = super.getRollData();
       const shorthand = game.settings.get("mechanician_fate", "macroShorthand");

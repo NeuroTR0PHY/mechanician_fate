@@ -90,7 +90,7 @@
 }
 
 .row {
-    height: 91%;
+    height: 100%;
     display: flex;
 }
 
@@ -139,6 +139,11 @@
     height: 25%;
 }
 
+.vitalscontent {
+    overflow-y: auto;
+    height: 70%;
+}
+
 .vitals .property-container {
     margin-left: 0.3rem;
     margin-bottom: 0.6rem;
@@ -150,6 +155,30 @@
 
 .skills {
     height: 100%;
+}
+
+.stress {
+    flex-direction: row;
+}
+
+.stress-item {
+
+}
+
+.stress-physical {
+
+}
+
+.stress-mental {
+
+}
+
+.stress-number {
+
+}
+
+.stress-box {
+
 }
 
 .full-page {
@@ -235,6 +264,11 @@
   height: 100%;
   overflow-y: auto;
 }
+
+.mech .sheet-body .tab.stats {
+    height: 100%;
+    overflow-y: hidden;
+}
 .mech .editor,
 .mech .editor-content {
   height: 100%;
@@ -303,4 +337,8 @@
 .mech.sheet.item {
   min-width: 460px;
   min-height: 400px;
+}
+
+#footer {
+    display: none;
 }

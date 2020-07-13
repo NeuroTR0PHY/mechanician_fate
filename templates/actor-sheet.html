@@ -31,7 +31,7 @@
     {{!-- Sheet Body --}}
     <section class="sheet-body main-sheet">
         {{!-- Stats tab --}}
-        <div class="tab" data-group="primary" data-tab="stats">
+        <div class="tab stats" data-group="primary" data-tab="stats">
             <div class="row">
                 <div class="col-1">
                     <section class="skills">
@@ -52,11 +52,42 @@
                 <div class="col-1">
                     <section class="vitals">
                         <header class="section-header">Vitals</header>
-                        <ol class="vitals">
-                            <li>Listed Vital</li>
-                            <li>Listed Vital #2</li>
-                            <li>Listed vital #3</li>
-                        </ol>
+                        <div class="vitalscontent">
+                            <section class="stress">
+                                <div class="stress-physical">
+                                    <h2 class="header">{{localize "FATE.Sheet.PhysStress"}}</h2>
+                                    <ul class="stress-boxes">
+                                        {{#each data.health.stress.physical as |check value|}}
+                                        <li class="stress-item">
+                                            <span class="stress-number">{{value}}</span>
+                                            <label class="stress-box">
+                                                <input type="checkbox" name="data.health.stress.physical.{{value}}"
+                                                       data-stress="physical" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
+                                                <i class="fas fa-check"></i>
+                                            </label>
+                                        </li>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+
+                                <div class="stress-mental">
+                                    <h2 class="header">{{localize "FATE.Sheet.MentalStress"}}</h2>
+
+                                    <ul class="stress-boxes">
+                                        {{#each data.health.stress.mental as |check value|}}
+                                        <li class="stress-item">
+                                            <span class="stress-number">{{value}}</span>
+                                            <label class="stress-box">
+                                                <input type="checkbox" name="data.health.stress.mental.{{value}}"
+                                                       data-stress="mental" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
+                                                <i class="fas fa-check"></i>
+                                            </label>
+                                        </li>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
                     </section>
                     <section>
                         <header class="section-header">Aspects</header>
