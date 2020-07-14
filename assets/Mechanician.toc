@@ -1,0 +1,114 @@
+\contentsline {chapter}{Preface}{6}{chapter*.2}% 
+\contentsline {chapter}{Introduction}{7}{chapter*.3}% 
+\contentsline {section}{Using This Book}{8}{section*.4}% 
+\contentsline {section}{How to Play}{9}{section*.5}% 
+\contentsline {chapter}{Primer: The Game}{12}{chapter*.7}% 
+\contentsline {section}{Dice}{12}{section*.8}% 
+\contentsline {section}{Character Creation}{12}{section*.9}% 
+\contentsline {section}{Profession}{12}{section*.10}% 
+\contentsline {section}{Abilities}{12}{section*.11}% 
+\contentsline {section}{Skills}{12}{section*.12}% 
+\contentsline {section}{Focus Points}{12}{section*.13}% 
+\contentsline {section}{Skill Rolls}{12}{section*.14}% 
+\contentsline {section}{Success, Failure, and Fumble}{12}{section*.15}% 
+\contentsline {chapter}{Primer: Critical Features of the \textit {Mechanician\{s\} World }}{13}{chapter*.16}% 
+\contentsline {section}{Familiar World}{13}{section*.17}% 
+\contentsline {section}{On the Static}{13}{section*.18}% 
+\contentsline {section}{Novel Point-of-View}{14}{section*.19}% 
+\contentsline {section}{Robust and Varied Denizens}{14}{section*.20}% 
+\contentsline {section}{Opinions Abound}{14}{section*.21}% 
+\contentsline {section}{Technology}{14}{section*.22}% 
+\contentsline {section}{Magic}{14}{section*.23}% 
+\contentsline {chapter}{Building a Character for the \textit {Mechanician\{s\} World }}{15}{chapter*.24}% 
+\contentsline {section}{Varieties of Fol' on/in the \textit {Mechanician\{s\} World }}{15}{section*.25}% 
+\contentsline {subsubsection}{Mechanical}{15}{section*.26}% 
+\contentsline {paragraph}{Machinefol'}{15}{section*.27}% 
+\contentsline {subsubsection}{Insectoids}{15}{section*.28}% 
+\contentsline {paragraph}{Hopper's}{15}{section*.29}% 
+\contentsline {paragraph}{Manti's}{15}{section*.30}% 
+\contentsline {subsubsection}{Bats}{15}{section*.31}% 
+\contentsline {paragraph}{Hognose }{15}{section*.32}% 
+\contentsline {paragraph}{Leafnose }{15}{section*.33}% 
+\contentsline {paragraph}{Beastnose }{15}{section*.34}% 
+\contentsline {subsubsection}{Critters}{16}{section*.35}% 
+\contentsline {paragraph}{Tarsifol'}{16}{section*.36}% 
+\contentsline {paragraph}{Cebufol' }{16}{section*.37}% 
+\contentsline {paragraph}{Mousefol'}{16}{section*.38}% 
+\contentsline {paragraph}{Molefol'}{16}{section*.39}% 
+\contentsline {paragraph}{Pumifol' }{16}{section*.40}% 
+\contentsline {paragraph}{Rabbitfol' }{16}{section*.41}% 
+\contentsline {paragraph}{Rubifol'}{16}{section*.42}% 
+\contentsline {paragraph}{Heygfol' }{16}{section*.43}% 
+\contentsline {paragraph}{Pedufol'}{16}{section*.44}% 
+\contentsline {paragraph}{Lumbalkfol'}{16}{section*.45}% 
+\contentsline {subsection}{Machinefol'}{17}{section*.46}% 
+\contentsline {subsubsection}{Models of Machinefol'}{18}{section*.47}% 
+\contentsline {subsection}{Hognose }{18}{section*.48}% 
+\contentsline {subsubsection}{Hognose subtypes}{19}{section*.49}% 
+\contentsline {paragraph}{Ghosts}{19}{section*.50}% 
+\contentsline {subsection}{Leafnose }{19}{section*.51}% 
+\contentsline {subsubsection}{subtypes of Leafnose }{21}{section*.52}% 
+\contentsline {subsection}{Beastnose }{21}{section*.53}% 
+\contentsline {subsection}{Hopper's}{23}{section*.54}% 
+\contentsline {subsection}{Manti's}{27}{section*.55}% 
+\contentsline {subsection}{Tarsifol'}{30}{section*.56}% 
+\contentsline {subsection}{Cebufol' }{31}{section*.57}% 
+\contentsline {subsection}{Mousefol'}{32}{section*.58}% 
+\contentsline {subsection}{Ratfol'}{35}{section*.59}% 
+\contentsline {subsection}{Molefol'}{35}{section*.60}% 
+\contentsline {subsection}{Heygfol' }{35}{section*.61}% 
+\contentsline {subsection}{Pumifol' }{36}{section*.62}% 
+\contentsline {subsection}{Rabbitfol' }{37}{section*.63}% 
+\contentsline {subsection}{Rubifol'}{38}{section*.64}% 
+\contentsline {subsection}{Pedufol'}{39}{section*.65}% 
+\contentsline {subsection}{Lumbalkfol'}{40}{section*.66}% 
+\contentsline {section}{Classes on/in the \textit {Mechanician\{s\} World }}{43}{section*.67}% 
+\contentsline {section}{Personality and Background}{43}{section*.68}% 
+\contentsline {section}{Starting Equipment}{43}{section*.69}% 
+\contentsline {section}{Customization Options}{43}{section*.70}% 
+\contentsline {chapter}{Following the Rules of the \textit {Mechanician\{s\} World }}{44}{chapter*.71}% 
+\contentsline {section}{What to do with All of These Scores}{44}{section*.72}% 
+\contentsline {section}{Advantage and Disadvantage}{44}{section*.73}% 
+\contentsline {section}{Proficiency Bonus}{44}{section*.74}% 
+\contentsline {section}{Ability Checks}{44}{section*.75}% 
+\contentsline {section}{Using Each Ability}{44}{section*.76}% 
+\contentsline {section}{Saving Throws}{44}{section*.77}% 
+\contentsline {section}{Magic Casting on/in the \textit {Mechanician\{s\} World }}{44}{section*.78}% 
+\contentsline {subsection}{What is Magic}{44}{section*.79}% 
+\contentsline {subsection}{Casting Magic}{44}{section*.80}% 
+\contentsline {chapter}{Adventuring}{45}{chapter*.81}% 
+\contentsline {section}{Time}{45}{section*.82}% 
+\contentsline {section}{Movement}{45}{section*.83}% 
+\contentsline {section}{The Environment}{45}{section*.84}% 
+\contentsline {section}{Social Interaction}{45}{section*.85}% 
+\contentsline {section}{Resting}{45}{section*.86}% 
+\contentsline {section}{Between Adventures}{45}{section*.87}% 
+\contentsline {section}{Planning Adventure's on/in the \textit {Mechanician\{s\} World }}{45}{section*.88}% 
+\contentsline {chapter}{Combat}{46}{chapter*.89}% 
+\contentsline {section}{Order}{46}{section*.90}% 
+\contentsline {section}{Movement and Position}{46}{section*.91}% 
+\contentsline {section}{Actions in Combat}{46}{section*.92}% 
+\contentsline {section}{Making an Attack}{46}{section*.93}% 
+\contentsline {section}{Cover}{46}{section*.94}% 
+\contentsline {section}{Damage and Healing}{46}{section*.95}% 
+\contentsline {section}{Mounted Combat}{46}{section*.96}% 
+\contentsline {section}{Underwater Combat}{46}{section*.97}% 
+\contentsline {part}{Catalogs}{48}{part*.98}% 
+\contentsline {chapter}{Inhabitants Found on/in the \textit {Mechanician\{s\} World }}{48}{chapter*.99}% 
+\contentsline {chapter}{Magic Spells on/in the \textit {Mechanician\{s\} World }}{48}{chapter*.100}% 
+\contentsline {section}{Spell Lists}{48}{section*.101}% 
+\contentsline {section}{Spell Descriptions}{48}{section*.102}% 
+\contentsline {chapter}{Conditions on/in the \textit {Mechanician\{s\} World }}{49}{chapter*.103}% 
+\contentsline {part}{Glossary}{51}{part*.104}% 
+\contentsline {part}{Index}{52}{part*.105}% 
+\contentsline {part}{Maps}{53}{part*.106}% 
+\contentsline {part}{Dice Probabilities}{54}{part*.107}% 
+\contentsline {part}{Detailed Examples of What to Expect While on/in the \textit {Mechanician\{s\} World }\leavevmode {\color {red}\textit {!!!DM's Only!!!}}}{55}{part*.108}% 
+\contentsline {chapter}{Historical Events and Myths from on/in the \textit {Mechanician\{s\} World }}{55}{chapter*.109}% 
+\contentsline {chapter}{Places to Explore on/in the \textit {Mechanician\{s\} World }}{55}{chapter*.110}% 
+\contentsline {section}{Scale}{55}{section*.111}% 
+\contentsline {chapter}{Factions and Societies of the \textit {Mechanician\{s\} World }}{56}{chapter*.112}% 
+\contentsline {chapter}{God's and/or Deities in Detail}{56}{chapter*.113}% 
+\contentsline {chapter}{Flora on/in the \textit {Mechanician\{s\} World }}{56}{chapter*.114}% 
+\contentsline {chapter}{Some Words on Items, Equipment, and Treasures on/in the \textit {Mechanician\{s\} World }}{57}{chapter*.115}% 
+\contentsline {part}{DM'ing Tips, Tricks, and Ideas}{59}{part*.116}% 
