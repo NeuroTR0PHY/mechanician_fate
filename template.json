@@ -4,9 +4,26 @@
     "character": {
       "biography": "",
       "health": {
-        "value": 10,
-        "min": 0,
-        "max": 10
+        "cons": {
+          "mild": {
+            "one": "",
+            "two": ""
+          }
+        },
+        "stress": {
+          "physical": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          },
+          "mental": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false
+          }
+        }
       },
       "power": {
         "value": 5,
@@ -17,21 +34,8 @@
         "current": 3,
         "refresh": 3
       },
-      "stress": {
-        "physical": {
-          "1": false,
-          "2": false,
-          "3": false,
-          "4": false
-        },
-        "mental": {
-          "1": false,
-          "2": false,
-          "3": false,
-          "4": false
-        },
-        "attributes": {}
-      }
+      "attributes": {}
+    }
     },
   "Item": {
     "types": [ "item" ],

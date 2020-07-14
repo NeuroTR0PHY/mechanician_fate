@@ -2,7 +2,7 @@
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-import { FATE } from '../config.js';
+//import { FATE } from './config.js';
 export class SimpleActorSheet extends ActorSheet {
     get actorType() {
         return this.actor.data.type;
@@ -227,9 +227,13 @@ export class SimpleActorSheet extends ActorSheet {
   */
   getData() {
       const sheetData = super.getData();
+      sheetData.dtypes = ["String", "Number", "Boolean"];
+      for (let attr of Object.values(sheetData.data.attributes)) {
+          attr.isCheckbox = attr.dtype === "Boolean";
+      }
       sheetData.cons = {};
-      sheetData.physStress = sheetData.data.health.stress.physical;
-      sheetData.mentStress = sheetData.data.health.stress.physical;
+      sheetData.physStress = sheetData.character.health;
+      sheetData.mentStress = sheetData.character.health.stress.physical;//sheetData.character.health.stress.physical;
       for (const [a, con] of Object.entries(sheetData.data.health.cons)) {
           sheetData.cons[a] = con;
           sheetData.cons[a].label = CONFIG.FATE.consequences[a];

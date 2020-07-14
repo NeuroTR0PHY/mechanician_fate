@@ -8,8 +8,8 @@
 import { SimpleActor } from "./actor.js";
 import { SimpleItemSheet } from "./item-sheet.js";
 import { SimpleActorSheet } from "./actor-sheet.js";
-import { FATE } from "./module/config.js";
-import { preloadHandlebarsTemplates } from "./module/templates.js";
+import { FATE } from "./config.js";
+//import { preloadHandlebarsTemplates } from "./module/templates.js";
 
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
