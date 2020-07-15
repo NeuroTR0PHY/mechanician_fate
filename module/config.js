@@ -13,15 +13,6 @@ export const FATE = {
         "Poor": -1,
         "Terrible": -2
     },
-    /** FAE Approaches */
-    approaches: {
-        "careful": "FATE.Sheet.Approaches.Careful",
-        "clever": "FATE.Sheet.Approaches.Clever",
-        "flashy": "FATE.Sheet.Approaches.Flashy",
-        "forceful": "FATE.Sheet.Approaches.Forceful",
-        "quick": "FATE.Sheet.Approaches.Quick",
-        "sneaky": "FATE.Sheet.Approaches.Sneaky"
-    },
     /** Consequences */
     consequences: {
         "mild": "FATE.Sheet.Cons.Mild",

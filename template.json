@@ -1,45 +1,83 @@
 {
   "Actor": {
-    "types": [ "character" ],
-    "character": {
-      "biography": "",
-      "health": {
-        "cons": {
-          "mild": {
-            "one": "",
-            "two": ""
-          }
-        },
+    "types": [ "Major", "Minor" ],
+    "templates": {
+      "common": {
+        "biography": "",
         "stress": {
           "physical": {
             "1": false,
             "2": false,
             "3": false,
-            "4": false
+            "4": false,
+            "5": false 
           },
           "mental": {
             "1": false,
             "2": false,
             "3": false,
-            "4": false
+            "4": false,
+            "5": false 
+          }
+        },
+        "consequences": {
+          "mild": {
+            "isFilled": false,
+            "description": ""
+          },
+          "moderate": {
+            "isFilled": false,
+            "description": ""
+          },
+          "severe": {
+            "isFilled": false,
+            "description": ""
           }
         }
+      } 
+    },
+    "Major": {
+      "templates": ["common"],
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10
       },
       "power": {
         "value": 5,
         "min": 0,
         "max": 5
       },
-      "points": {
+      "fate-points": {
         "current": 3,
-        "refresh": 3
+        "refresh": 3 
+      }, 
+      "attributes": {}
+    },
+    "Minor": {
+      "templates": [ "common" ],
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+      },
+      "power": {
+        "value": 5,
+        "min": 0,
+        "max": 5
       },
       "attributes": {}
     }
-    },
+  },
   "Item": {
-    "types": [ "item" ],
+    "types": [ "item", "aspect" ],
     "item": {
+      "description": "",
+      "quantity": 1,
+      "weight": 0,
+      "attributes": {}
+    },
+    "aspect": {
       "description": "",
       "quantity": 1,
       "weight": 0,
