@@ -2,7 +2,7 @@
   "name": "mechanician_fate",
   "title": "Mechanician (FATE)",
   "description": "A custom system powered by FATE for the Mechanician setting.",
-  "version": 0.1,
+  "version": 0.2,
   "author": "Neurotrophy",
   "scripts": [],
   "esmodules": [ "module/simple.js" ],
