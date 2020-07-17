@@ -129,16 +129,39 @@
 .aspects {
     grid-column: 2;
     grid-row: 1;
-    overflow-x: auto;
     overflow-y: hidden;
 
 }
 
-.horizontalitems li{
-    display: inline ;
+.horizontalitems{
+    display: inline-flex ;
     overflow-x: auto;
     text-wrap: none;
+    height: 100%;
+}
 
+.overflow {
+    overflow-x: auto;
+    height: 82%;
+}
+
+.sectioncard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 0px;
+    margin: 5px;
+    width: 95%%;
+    height: 95%;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+    background-color: #f1f1f1;
 }
 
 .stressflex {
@@ -156,8 +179,7 @@
 }
 
 .section-header { /*for the black backedd headers above each category*/
-    background-color: black;
-    color: white;
+    color: black;
     font-weight: bold;
     font-style: italic;
     font-size: 1.5em;
@@ -165,6 +187,8 @@
     font-family: "Montserrat";
     padding-left: 10px;
     text-transform: uppercase;
+    position: sticky;
+    border-bottom: black 1px dashed;
 }
 
 .simple-header {
