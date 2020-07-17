@@ -2,106 +2,110 @@
 
     {{!-- Sheet Header --}}
     <header class="sheet-header">
-        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
-        <div class="header-fields">
-            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
-            <h3>Current FP/ Refresh</h3>
-            <div class="resource">
-                <input type="text" name="data.fate-points.current" value="{{data.fate-points.current}}" data-dtype="Number" />
-                <span> / </span>
-                <input type="text" name="data.fate-points.refresh" value="{{data.fate-points.refresh}}" data-dtype="Number" />
+        <div class="faterow border">
+            <div class="current-field">
+                <input class="current-input" type="text" name="data.fate-points.current" value="{{data.fate-points.current}}" data-dtype="Number"/>
             </div>
-            <div class="resource">
-                <input type="text" name="data.power.value" value="{{data.power.value}}" data-dtype="Number" />
-                <span> / </span>
-                <input type="text" name="data.power.max" value="{{data.power.max}}" data-dtype="Number" />
+            <div class="refresh-field">
+                <input class="refresh-input" type="text" name="data.fate-points.refresh" value="{{data.fate-points.refresh}}" data-dtype="Number" />
             </div>
         </div>
+        <div class="header-fields">
+            <div class="stress-containers">
+                <h2 class="simple-header">Physical</h2>
+                <ul class="stressflex">
+                    {{#each data.stress.physical as |check value|}}
+                    <li class="stress-item">
+                        <div class="stress-number">{{value}}</div>
+                        <label class="stress-box">
+                            <input type="checkbox" name="data.stress.physical.{{value}}"
+                                   data-stress="physical" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
+                            <!--<i class="fas fa-check"></i> --->
+                        </label>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="stress-containers">
+                <h2 class="simple-header">Mental</h2>
+                <ul class="stressflex">
+                    {{#each data.stress.mental as |check value|}}
+                    <li class="stress-item">
+                        <div class="stress-number">{{value}}</div>
+                        <label class="stress-box">
+                            <input type="checkbox" name="data.stress.mental.{{value}}"
+                                   data-stress="mental" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
+                            <!--<i class="fas fa-check"></i> --->
+                        </label>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+
+
     </header>
 
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="stats">Stats</a>
         <a class="item" data-tab="items">Items</a>
-        <a class="item" data-tab="attributes">Attributes</a>
-        <a class="item" data-tab="description">Description</a>
+       {{!-- <a class="item" data-tab="attributes">Misc</a> --}}
+        <a class="item" data-tab="description">Detail</a>
     </nav>
-
+    
     {{!-- Sheet Body --}}
     <section class="sheet-body main-sheet">
         {{!-- Stats tab --}}
         <div class="tab stats" data-group="primary" data-tab="stats">
-            <div class="row">
-                <div class="col-1">
-                    <section class="skills">
-                        <header class="section-header">Skills</header>
-                        <ol class="skills">
-                            <li>testtesttest</li>
-                        </ol>
-                    </section>
-                </div>
-                <div class="col-1">
-                    <section>
-                        <header class="section-header">Stunts</header>
-                        <ol class="stunts">
-                            <li>testtesttest</li>
-                        </ol>
-                    </section>
-                </div>
-                <div class="col-1">
-                    <section class="vitals">
-                        <header class="section-header">Stress</header>
-                        <div>
-                            <h2 class="simple-header">Physical</h2>
-                            <ul class="stressflex">
-                                {{#each data.stress.physical as |check value|}}
-                                <li class="stress-item">
-                                    <div class="stress-number">{{value}}</div>
-                                    <label class="stress-box">
-                                        <input type="checkbox" name="data.stress.physical.{{value}}"
-                                               data-stress="physical" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
-                                        <!--<i class="fas fa-check"></i> --->
-                                    </label>
-                                </li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 class="simple-header" ">Mental</h2>
-                            <ul class="stressflex">
-                                {{#each data.stress.mental as |check value|}}
-                                <li class="stress-item">
-                                    <div class="stress-number">{{value}}</div>
-                                    <label class="stress-box">
-                                        <input type="checkbox" name="data.stress.mental.{{value}}"
-                                               data-stress="mental" data-value="{{value}}" data-dtype="Boolean" {{checked check}} />
-                                        <!--<i class="fas fa-check"></i> --->
-                                    </label>
-                                </li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        <header class="section-header">Consequences</header>
-                        <div>
-                            <h1>CONTENT</h1>
-                        </div>
-                    </section>
-                </div>
-                <div class="col-1">
-                    <section>
-                        <header class="section-header">Aspects</header>
-                        <ol class="aspects">
-                            <li>Listed Aspect</li>
-                            <li>Listed Aspect #2</li>
-                            <li>Listed Aspect #2</li>
-                        </ol>
-                    </section>
-                </div>
+            <div class="main-grid">
+                <section class="skills">
+                    <header class="section-header">Skills</header>
+                    <ol class="skills">
+                        <li>testtesttest</li>
+                    </ol>
+                </section>
+                <section class="aspects">
+                    <header class="section-header">Aspects</header>
+                    <ul class="horizontalitems">
+                        <li>Listed Aspect</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                        <li>Listed Aspect #2</li>
+                    </ul>
+                </section>
+                <section class="stunts">
+                    <header class="section-header">Stunts</header>
+                    <ol>
+                        <li>testtesttest</li>
+                    </ol>
+                </section>
+
+                <section class="vitals">
+                    <header class="section-header">Cons</header>
+                    <div>
+                        <h1>CONTENT</h1>
+                    </div>
+                    {{!-- <header class="section-header">Stress</header> --}}
+                </section>
             </div>
         </div>
 
         {{!-- Biography Tab --}}
     <div class="tab biography" data-group="primary" data-tab="description">
+        <h3 class="charname" style="padding-left: 10px">
+            <input name="name" type="text" value="{{actor.name}}" placeholder="Enter Name..."/>
+        </h3>
         {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}
     </div>
 
